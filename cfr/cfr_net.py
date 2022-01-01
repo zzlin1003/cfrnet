@@ -3,6 +3,8 @@ import numpy as np
 
 from util import *
 
+
+
 class cfr_net(object):
     """
     cfr_net implements the counterfactual regression neural network
