@@ -1,0 +1,7 @@
+p_alpha=0.9
+p_alpha=0.3
+p_alpha=1.0
+p_alpha=0.5
+p_alpha=0.7
+p_alpha=0.8
+p_alpha=0.2

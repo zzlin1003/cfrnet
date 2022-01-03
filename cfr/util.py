@@ -1,4 +1,5 @@
 import tensorflow as tf
+
 import numpy as np
 
 SQRT_CONST = 1e-10

@@ -131,7 +131,7 @@ def load_data(datapath):
 
     data = {'x':xs, 't':ts, 'e':es, 'yf':yfs, 'ycf':ycfs, \
             'mu0':mu0s, 'mu1':mu1s, 'ate':ate, 'YMUL': ymul, \
-            'YADD': yadd, 'ATE': ate.tolist(), 'HAVE_TRUTH': HAVE_TRUTH, \
+            'YADD': yadd, 'ATE': ate, 'HAVE_TRUTH': HAVE_TRUTH, \
             'SPARSE': SPARSE}
 
     return data

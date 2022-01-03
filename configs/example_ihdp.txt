@@ -1,4 +1,4 @@
-p_alpha=[0, 1]
+p_alpha=[0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
 p_lambda=[1e-4]
 n_in=[3]
 n_out=[3]
@@ -28,8 +28,8 @@ iterations=3000
 weight_init=[0.1]
 outdir='results/example_ihdp'
 datadir='data/'
-dataform='ihdp_npci_1-100.train.npz'
-data_test='ihdp_npci_1-100.test.npz'
+dataform='ihdp_setting_b_1-100.train.npz'
+data_test='ihdp_setting_b_1-100.test.npz'
 pred_output_delay=200
 loss='l2'
 sparse=0

@@ -1,0 +1,346 @@
+Training with hyperparameters: alpha=0, lambda=0.0001
+Training data: data/acic/acic_1-10_train_setting_7.npz
+Test data:     data/acic/acic_1-10_test_setting_7.npz
+Loaded data with shape [3601,55]
+Defining graph...
+
+Training on experiment 1/10...
+0	Obj: 39.594,	F: 6.116,	Cf: 5.157,	Imb: 0.043,	Val: 5.286,	ValImb: 0.041,	ValObj: 23.54
+100	Obj: 34.514,	F: 5.721,	Cf: 4.819,	Imb: 0.0053,	Val: 5.034,	ValImb: 0.0043,	ValObj: 20.13
+200	Obj: 26.660,	F: 4.689,	Cf: 3.853,	Imb: 0.066,	Val: 3.795,	ValImb: 0.061,	ValObj: 12.73
+300	Obj: 21.103,	F: 4.035,	Cf: 2.912,	Imb: 0.063,	Val: 2.979,	ValImb: 0.059,	ValObj: 8.07
+400	Obj: 19.135,	F: 3.954,	Cf: 2.995,	Imb: 0.098,	Val: 3.013,	ValImb: 0.087,	ValObj: 7.77
+500	Obj: 23.381,	F: 4.343,	Cf: 3.343,	Imb: 0.044,	Val: 3.356,	ValImb: 0.037,	ValObj: 9.86
+600	Obj: 11.253,	F: 3.365,	Cf: 3.040,	Imb: 0.057,	Val: 3.202,	ValImb: 0.047,	ValObj: 8.43
+700	Obj: 28.153,	F: 4.832,	Cf: 4.047,	Imb: 0.045,	Val: 3.901,	ValImb: 0.038,	ValObj: 13.88
+800	Obj: 19.096,	F: 3.951,	Cf: 3.285,	Imb: 0.06,	Val: 3.081,	ValImb: 0.047,	ValObj: 8.55
+900	Obj: 28.375,	F: 4.630,	Cf: 4.932,	Imb: 0.092,	Val: 4.253,	ValImb: 0.081,	ValObj: 22.47
+1000	Obj: 10.111,	F: 3.341,	Cf: 3.191,	Imb: 0.075,	Val: 3.286,	ValImb: 0.06,	ValObj: 8.78
+1100	Obj: 23.050,	F: 4.413,	Cf: 3.175,	Imb: 0.055,	Val: 3.299,	ValImb: 0.044,	ValObj: 9.32
+1200	Obj: 21.736,	F: 4.209,	Cf: 3.685,	Imb: 0.06,	Val: 3.331,	ValImb: 0.048,	ValObj: 10.44
+1300	Obj: 16.396,	F: 3.648,	Cf: 2.808,	Imb: 0.051,	Val: 2.725,	ValImb: 0.04,	ValObj: 6.65
+1400	Obj: 14.378,	F: 3.480,	Cf: 2.852,	Imb: 0.043,	Val: 2.807,	ValImb: 0.034,	ValObj: 6.85
+1500	Obj: 10.857,	F: 3.132,	Cf: 3.139,	Imb: 0.05,	Val: 2.816,	ValImb: 0.039,	ValObj: 7.52
+1600	Obj: 8.070,	F: 2.819,	Cf: 2.984,	Imb: 0.041,	Val: 2.723,	ValImb: 0.031,	ValObj: 6.79
+1700	Obj: 6.773,	F: 2.611,	Cf: 2.722,	Imb: 0.045,	Val: 2.562,	ValImb: 0.034,	ValObj: 5.92
+1800	Obj: 7.261,	F: 2.674,	Cf: 2.804,	Imb: 0.041,	Val: 2.652,	ValImb: 0.031,	ValObj: 6.58
+1900	Obj: 6.840,	F: 2.656,	Cf: 2.907,	Imb: 0.044,	Val: 2.783,	ValImb: 0.033,	ValObj: 7.15
+2000	Obj: 5.622,	F: 2.450,	Cf: 2.743,	Imb: 0.044,	Val: 2.572,	ValImb: 0.034,	ValObj: 6.12
+2100	Obj: 5.206,	F: 2.364,	Cf: 2.676,	Imb: 0.044,	Val: 2.497,	ValImb: 0.034,	ValObj: 5.73
+2200	Obj: 5.118,	F: 2.350,	Cf: 2.704,	Imb: 0.044,	Val: 2.453,	ValImb: 0.034,	ValObj: 5.63
+2300	Obj: 5.282,	F: 2.362,	Cf: 2.668,	Imb: 0.046,	Val: 2.447,	ValImb: 0.036,	ValObj: 5.49
+2400	Obj: 4.732,	F: 2.262,	Cf: 2.625,	Imb: 0.045,	Val: 2.362,	ValImb: 0.035,	ValObj: 5.20
+2500	Obj: 4.778,	F: 2.256,	Cf: 2.594,	Imb: 0.045,	Val: 2.322,	ValImb: 0.035,	ValObj: 5.04
+2600	Obj: 4.594,	F: 2.216,	Cf: 2.636,	Imb: 0.045,	Val: 2.316,	ValImb: 0.036,	ValObj: 5.08
+2700	Obj: 4.450,	F: 2.181,	Cf: 2.544,	Imb: 0.045,	Val: 2.300,	ValImb: 0.036,	ValObj: 5.00
+2800	Obj: 4.305,	F: 2.154,	Cf: 2.542,	Imb: 0.046,	Val: 2.268,	ValImb: 0.037,	ValObj: 4.91
+2900	Obj: 4.067,	F: 2.104,	Cf: 2.501,	Imb: 0.046,	Val: 2.228,	ValImb: 0.037,	ValObj: 4.67
+2999	Obj: 3.989,	F: 2.116,	Cf: 2.544,	Imb: 0.049,	Val: 2.240,	ValImb: 0.039,	ValObj: 4.66
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 2/10...
+0	Obj: 45.950,	F: 6.463,	Cf: 7.293,	Imb: 0.036,	Val: 6.530,	ValImb: 0.035,	ValObj: 46.56
+100	Obj: 21.081,	F: 4.699,	Cf: 4.543,	Imb: 0.0023,	Val: 4.766,	ValImb: 0.0024,	ValObj: 21.61
+200	Obj: 22.717,	F: 4.810,	Cf: 4.648,	Imb: 0.055,	Val: 4.808,	ValImb: 0.049,	ValObj: 22.29
+300	Obj: 22.242,	F: 4.770,	Cf: 4.691,	Imb: 0.002,	Val: 4.822,	ValImb: 0.0016,	ValObj: 22.60
+400	Obj: 21.033,	F: 4.691,	Cf: 4.531,	Imb: 0.0014,	Val: 4.757,	ValImb: 0.0013,	ValObj: 21.58
+500	Obj: 18.143,	F: 4.206,	Cf: 4.259,	Imb: 0.033,	Val: 4.304,	ValImb: 0.032,	ValObj: 19.00
+600	Obj: 16.238,	F: 3.979,	Cf: 4.115,	Imb: 0.028,	Val: 4.103,	ValImb: 0.019,	ValObj: 17.48
+700	Obj: 15.705,	F: 3.860,	Cf: 4.105,	Imb: 0.027,	Val: 4.000,	ValImb: 0.02,	ValObj: 16.97
+800	Obj: 18.020,	F: 4.266,	Cf: 4.276,	Imb: 0.025,	Val: 4.412,	ValImb: 0.019,	ValObj: 19.29
+900	Obj: 15.116,	F: 3.743,	Cf: 4.134,	Imb: 0.036,	Val: 3.884,	ValImb: 0.026,	ValObj: 16.51
+1000	Obj: 14.930,	F: 3.697,	Cf: 4.079,	Imb: 0.032,	Val: 3.871,	ValImb: 0.023,	ValObj: 16.32
+1100	Obj: 14.127,	F: 3.586,	Cf: 4.030,	Imb: 0.032,	Val: 3.725,	ValImb: 0.024,	ValObj: 15.45
+1200	Obj: 14.587,	F: 3.663,	Cf: 4.094,	Imb: 0.035,	Val: 3.812,	ValImb: 0.028,	ValObj: 16.14
+1300	Obj: 14.256,	F: 3.571,	Cf: 4.042,	Imb: 0.039,	Val: 3.737,	ValImb: 0.03,	ValObj: 15.75
+1400	Obj: 13.683,	F: 3.516,	Cf: 4.010,	Imb: 0.041,	Val: 3.682,	ValImb: 0.033,	ValObj: 15.19
+1500	Obj: 13.740,	F: 3.559,	Cf: 3.967,	Imb: 0.038,	Val: 3.723,	ValImb: 0.03,	ValObj: 15.06
+1600	Obj: 13.199,	F: 3.419,	Cf: 4.014,	Imb: 0.047,	Val: 3.616,	ValImb: 0.04,	ValObj: 14.67
+1700	Obj: 13.534,	F: 3.519,	Cf: 3.960,	Imb: 0.044,	Val: 3.699,	ValImb: 0.037,	ValObj: 14.90
+1800	Obj: 12.754,	F: 3.380,	Cf: 3.936,	Imb: 0.056,	Val: 3.578,	ValImb: 0.048,	ValObj: 14.33
+1900	Obj: 12.979,	F: 3.431,	Cf: 4.028,	Imb: 0.06,	Val: 3.655,	ValImb: 0.054,	ValObj: 14.74
+2000	Obj: 12.463,	F: 3.371,	Cf: 3.923,	Imb: 0.067,	Val: 3.564,	ValImb: 0.06,	ValObj: 13.92
+2100	Obj: 12.109,	F: 3.318,	Cf: 3.881,	Imb: 0.077,	Val: 3.527,	ValImb: 0.072,	ValObj: 13.53
+2200	Obj: 14.415,	F: 3.557,	Cf: 4.172,	Imb: 0.077,	Val: 3.786,	ValImb: 0.075,	ValObj: 16.39
+2300	Obj: 10.646,	F: 3.143,	Cf: 3.718,	Imb: 0.094,	Val: 3.391,	ValImb: 0.088,	ValObj: 12.48
+2400	Obj: 11.790,	F: 3.225,	Cf: 3.897,	Imb: 0.094,	Val: 3.502,	ValImb: 0.088,	ValObj: 13.98
+2500	Obj: 10.933,	F: 3.134,	Cf: 3.705,	Imb: 0.091,	Val: 3.360,	ValImb: 0.083,	ValObj: 12.36
+2600	Obj: 12.475,	F: 3.271,	Cf: 4.046,	Imb: 0.098,	Val: 3.556,	ValImb: 0.091,	ValObj: 14.90
+2700	Obj: 9.300,	F: 2.934,	Cf: 3.525,	Imb: 0.1,	Val: 3.219,	ValImb: 0.093,	ValObj: 11.22
+2800	Obj: 10.989,	F: 3.134,	Cf: 3.864,	Imb: 0.1,	Val: 3.441,	ValImb: 0.094,	ValObj: 13.57
+2900	Obj: 8.716,	F: 2.864,	Cf: 3.488,	Imb: 0.11,	Val: 3.179,	ValImb: 0.098,	ValObj: 10.95
+2999	Obj: 8.900,	F: 2.926,	Cf: 3.455,	Imb: 0.092,	Val: 3.206,	ValImb: 0.084,	ValObj: 10.79
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 3/10...
+0	Obj: 549.857,	F: 23.437,	Cf: 25.588,	Imb: 0.033,	Val: 23.109,	ValImb: 0.033,	ValObj: 530.38
+100	Obj: 17.227,	F: 3.838,	Cf: 4.758,	Imb: 0.00028,	Val: 3.318,	ValImb: 0.00029,	ValObj: 13.34
+200	Obj: 17.367,	F: 3.868,	Cf: 4.781,	Imb: 0.00031,	Val: 3.333,	ValImb: 0.00032,	ValObj: 13.43
+300	Obj: 17.673,	F: 3.872,	Cf: 4.782,	Imb: 0.00069,	Val: 3.376,	ValImb: 0.00068,	ValObj: 14.05
+400	Obj: 17.128,	F: 3.829,	Cf: 4.765,	Imb: 0.0021,	Val: 3.296,	ValImb: 0.0021,	ValObj: 13.14
+500	Obj: 16.488,	F: 3.811,	Cf: 4.605,	Imb: 0.013,	Val: 3.339,	ValImb: 0.014,	ValObj: 13.03
+600	Obj: 16.433,	F: 3.791,	Cf: 4.663,	Imb: 0.0093,	Val: 3.253,	ValImb: 0.0093,	ValObj: 12.62
+700	Obj: 14.621,	F: 3.632,	Cf: 4.370,	Imb: 0.034,	Val: 3.076,	ValImb: 0.032,	ValObj: 10.84
+800	Obj: 13.432,	F: 3.546,	Cf: 4.245,	Imb: 0.039,	Val: 3.107,	ValImb: 0.035,	ValObj: 10.84
+900	Obj: 13.720,	F: 3.567,	Cf: 4.276,	Imb: 0.039,	Val: 3.134,	ValImb: 0.034,	ValObj: 11.21
+1000	Obj: 13.760,	F: 3.567,	Cf: 4.249,	Imb: 0.03,	Val: 3.060,	ValImb: 0.028,	ValObj: 10.57
+1100	Obj: 13.553,	F: 3.557,	Cf: 4.260,	Imb: 0.043,	Val: 3.012,	ValImb: 0.036,	ValObj: 10.05
+1200	Obj: 12.715,	F: 3.480,	Cf: 4.162,	Imb: 0.043,	Val: 2.995,	ValImb: 0.04,	ValObj: 9.80
+1300	Obj: 15.435,	F: 3.718,	Cf: 4.789,	Imb: 0.057,	Val: 3.429,	ValImb: 0.049,	ValObj: 14.34
+1400	Obj: 11.802,	F: 3.411,	Cf: 4.176,	Imb: 0.049,	Val: 3.066,	ValImb: 0.043,	ValObj: 10.38
+1500	Obj: 11.851,	F: 3.419,	Cf: 4.150,	Imb: 0.044,	Val: 2.957,	ValImb: 0.04,	ValObj: 9.47
+1600	Obj: 10.808,	F: 3.315,	Cf: 4.218,	Imb: 0.044,	Val: 2.979,	ValImb: 0.039,	ValObj: 9.71
+1700	Obj: 13.032,	F: 3.514,	Cf: 4.222,	Imb: 0.035,	Val: 2.989,	ValImb: 0.032,	ValObj: 9.83
+1800	Obj: 11.361,	F: 3.366,	Cf: 4.230,	Imb: 0.029,	Val: 3.006,	ValImb: 0.027,	ValObj: 9.89
+1900	Obj: 11.079,	F: 3.338,	Cf: 4.210,	Imb: 0.034,	Val: 2.980,	ValImb: 0.033,	ValObj: 9.68
+2000	Obj: 10.443,	F: 3.281,	Cf: 4.317,	Imb: 0.036,	Val: 2.996,	ValImb: 0.034,	ValObj: 9.87
+2100	Obj: 10.035,	F: 3.246,	Cf: 4.461,	Imb: 0.04,	Val: 3.009,	ValImb: 0.038,	ValObj: 10.05
+2200	Obj: 14.161,	F: 3.612,	Cf: 4.285,	Imb: 0.018,	Val: 3.094,	ValImb: 0.017,	ValObj: 10.56
+2300	Obj: 12.213,	F: 3.447,	Cf: 4.036,	Imb: 0.033,	Val: 2.963,	ValImb: 0.031,	ValObj: 9.32
+2400	Obj: 12.518,	F: 3.463,	Cf: 4.113,	Imb: 0.033,	Val: 2.951,	ValImb: 0.031,	ValObj: 9.44
+2500	Obj: 12.063,	F: 3.425,	Cf: 4.093,	Imb: 0.036,	Val: 2.993,	ValImb: 0.034,	ValObj: 9.77
+2600	Obj: 11.816,	F: 3.414,	Cf: 4.016,	Imb: 0.038,	Val: 2.961,	ValImb: 0.035,	ValObj: 9.24
+2700	Obj: 11.435,	F: 3.377,	Cf: 4.169,	Imb: 0.031,	Val: 2.932,	ValImb: 0.029,	ValObj: 9.26
+2800	Obj: 9.803,	F: 3.217,	Cf: 4.122,	Imb: 0.037,	Val: 2.938,	ValImb: 0.033,	ValObj: 9.34
+2900	Obj: 9.802,	F: 3.215,	Cf: 4.458,	Imb: 0.043,	Val: 3.030,	ValImb: 0.038,	ValObj: 10.28
+2999	Obj: 9.338,	F: 3.171,	Cf: 4.228,	Imb: 0.04,	Val: 2.943,	ValImb: 0.036,	ValObj: 9.42
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 4/10...
+0	Obj: 37.655,	F: 5.783,	Cf: 7.124,	Imb: 0.034,	Val: 5.990,	ValImb: 0.035,	ValObj: 41.16
+100	Obj: 21.954,	F: 4.982,	Cf: 5.004,	Imb: 0.071,	Val: 5.181,	ValImb: 0.082,	ValObj: 24.70
+200	Obj: 18.035,	F: 4.761,	Cf: 4.535,	Imb: 0.063,	Val: 4.951,	ValImb: 0.072,	ValObj: 20.46
+300	Obj: 13.005,	F: 3.896,	Cf: 3.743,	Imb: 0.063,	Val: 4.037,	ValImb: 0.062,	ValObj: 14.92
+400	Obj: 6.017,	F: 2.385,	Cf: 3.082,	Imb: 0.12,	Val: 2.593,	ValImb: 0.16,	ValObj: 7.36
+500	Obj: 4.763,	F: 2.039,	Cf: 3.033,	Imb: 0.1,	Val: 2.270,	ValImb: 0.14,	ValObj: 6.13
+600	Obj: 5.140,	F: 2.079,	Cf: 3.179,	Imb: 0.11,	Val: 2.348,	ValImb: 0.15,	ValObj: 6.75
+700	Obj: 4.497,	F: 1.963,	Cf: 3.030,	Imb: 0.12,	Val: 2.215,	ValImb: 0.16,	ValObj: 6.05
+800	Obj: 4.166,	F: 1.892,	Cf: 2.887,	Imb: 0.11,	Val: 2.154,	ValImb: 0.14,	ValObj: 5.70
+900	Obj: 4.734,	F: 1.988,	Cf: 2.901,	Imb: 0.11,	Val: 2.270,	ValImb: 0.14,	ValObj: 6.55
+1000	Obj: 5.073,	F: 2.232,	Cf: 3.026,	Imb: 0.11,	Val: 2.517,	ValImb: 0.14,	ValObj: 6.85
+1100	Obj: 5.372,	F: 2.296,	Cf: 2.975,	Imb: 0.11,	Val: 2.532,	ValImb: 0.15,	ValObj: 7.14
+1200	Obj: 4.329,	F: 1.933,	Cf: 2.966,	Imb: 0.12,	Val: 2.234,	ValImb: 0.16,	ValObj: 6.33
+1300	Obj: 3.691,	F: 1.757,	Cf: 2.863,	Imb: 0.11,	Val: 2.060,	ValImb: 0.15,	ValObj: 5.34
+1400	Obj: 3.718,	F: 1.755,	Cf: 2.792,	Imb: 0.12,	Val: 2.113,	ValImb: 0.16,	ValObj: 5.75
+1500	Obj: 3.452,	F: 1.709,	Cf: 2.922,	Imb: 0.12,	Val: 2.028,	ValImb: 0.16,	ValObj: 5.28
+1600	Obj: 3.458,	F: 1.719,	Cf: 2.985,	Imb: 0.13,	Val: 2.092,	ValImb: 0.16,	ValObj: 5.65
+1700	Obj: 4.001,	F: 1.829,	Cf: 2.825,	Imb: 0.12,	Val: 2.185,	ValImb: 0.16,	ValObj: 6.20
+1800	Obj: 3.218,	F: 1.701,	Cf: 2.840,	Imb: 0.12,	Val: 2.096,	ValImb: 0.16,	ValObj: 5.40
+1900	Obj: 2.969,	F: 1.633,	Cf: 2.782,	Imb: 0.12,	Val: 2.083,	ValImb: 0.16,	ValObj: 5.38
+2000	Obj: 2.749,	F: 1.568,	Cf: 2.750,	Imb: 0.13,	Val: 1.976,	ValImb: 0.16,	ValObj: 5.01
+2100	Obj: 2.753,	F: 1.582,	Cf: 2.636,	Imb: 0.12,	Val: 2.024,	ValImb: 0.16,	ValObj: 5.08
+2200	Obj: 2.717,	F: 1.632,	Cf: 2.577,	Imb: 0.13,	Val: 2.036,	ValImb: 0.16,	ValObj: 4.97
+2300	Obj: 2.542,	F: 1.618,	Cf: 2.525,	Imb: 0.13,	Val: 2.031,	ValImb: 0.17,	ValObj: 4.95
+2400	Obj: 2.915,	F: 1.658,	Cf: 2.479,	Imb: 0.13,	Val: 2.052,	ValImb: 0.17,	ValObj: 5.25
+2500	Obj: 1.945,	F: 1.394,	Cf: 2.313,	Imb: 0.14,	Val: 1.873,	ValImb: 0.17,	ValObj: 4.33
+2600	Obj: 1.778,	F: 1.360,	Cf: 2.195,	Imb: 0.13,	Val: 1.801,	ValImb: 0.17,	ValObj: 3.86
+2700	Obj: 1.754,	F: 1.332,	Cf: 2.231,	Imb: 0.13,	Val: 1.787,	ValImb: 0.17,	ValObj: 3.92
+2800	Obj: 1.551,	F: 1.294,	Cf: 2.073,	Imb: 0.13,	Val: 1.692,	ValImb: 0.17,	ValObj: 3.35
+2900	Obj: 1.657,	F: 1.322,	Cf: 2.117,	Imb: 0.14,	Val: 1.769,	ValImb: 0.18,	ValObj: 3.72
+2999	Obj: 1.514,	F: 1.275,	Cf: 1.959,	Imb: 0.13,	Val: 1.665,	ValImb: 0.17,	ValObj: 3.15
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 5/10...
+0	Obj: 333.234,	F: 20.008,	Cf: 18.366,	Imb: 0.033,	Val: 19.853,	ValImb: 0.033,	ValObj: 319.67
+100	Obj: 27.539,	F: 4.976,	Cf: 5.370,	Imb: 0.0053,	Val: 4.896,	ValImb: 0.0058,	ValObj: 26.00
+200	Obj: 18.220,	F: 4.210,	Cf: 4.144,	Imb: 0.052,	Val: 4.189,	ValImb: 0.093,	ValObj: 17.21
+300	Obj: 17.986,	F: 4.221,	Cf: 4.029,	Imb: 0.061,	Val: 4.162,	ValImb: 0.091,	ValObj: 16.89
+400	Obj: 16.537,	F: 4.068,	Cf: 4.063,	Imb: 0.066,	Val: 3.988,	ValImb: 0.099,	ValObj: 15.28
+500	Obj: 16.847,	F: 4.157,	Cf: 3.996,	Imb: 0.072,	Val: 4.135,	ValImb: 0.11,	ValObj: 16.25
+600	Obj: 15.683,	F: 3.894,	Cf: 3.992,	Imb: 0.09,	Val: 3.861,	ValImb: 0.15,	ValObj: 14.65
+700	Obj: 14.154,	F: 3.690,	Cf: 3.788,	Imb: 0.13,	Val: 3.687,	ValImb: 0.18,	ValObj: 13.35
+800	Obj: 13.658,	F: 3.601,	Cf: 3.690,	Imb: 0.13,	Val: 3.578,	ValImb: 0.18,	ValObj: 12.85
+900	Obj: 13.164,	F: 3.582,	Cf: 3.752,	Imb: 0.14,	Val: 3.568,	ValImb: 0.19,	ValObj: 12.27
+1000	Obj: 14.552,	F: 3.909,	Cf: 3.834,	Imb: 0.17,	Val: 3.984,	ValImb: 0.23,	ValObj: 14.83
+1100	Obj: 12.312,	F: 3.482,	Cf: 3.690,	Imb: 0.16,	Val: 3.579,	ValImb: 0.2,	ValObj: 12.47
+1200	Obj: 11.363,	F: 3.370,	Cf: 3.596,	Imb: 0.15,	Val: 3.460,	ValImb: 0.21,	ValObj: 11.96
+1300	Obj: 9.743,	F: 3.189,	Cf: 3.416,	Imb: 0.18,	Val: 3.304,	ValImb: 0.23,	ValObj: 10.76
+1400	Obj: 9.265,	F: 3.087,	Cf: 3.451,	Imb: 0.18,	Val: 3.283,	ValImb: 0.23,	ValObj: 11.39
+1500	Obj: 9.081,	F: 3.084,	Cf: 3.458,	Imb: 0.16,	Val: 3.251,	ValImb: 0.2,	ValObj: 10.54
+1600	Obj: 7.665,	F: 2.929,	Cf: 3.169,	Imb: 0.17,	Val: 3.134,	ValImb: 0.21,	ValObj: 9.96
+1700	Obj: 7.043,	F: 2.710,	Cf: 3.271,	Imb: 0.18,	Val: 2.953,	ValImb: 0.23,	ValObj: 9.83
+1800	Obj: 9.207,	F: 2.837,	Cf: 3.613,	Imb: 0.18,	Val: 3.154,	ValImb: 0.21,	ValObj: 13.02
+1900	Obj: 6.702,	F: 2.681,	Cf: 3.233,	Imb: 0.18,	Val: 3.018,	ValImb: 0.22,	ValObj: 10.26
+2000	Obj: 5.145,	F: 2.262,	Cf: 2.986,	Imb: 0.18,	Val: 2.640,	ValImb: 0.23,	ValObj: 8.55
+2100	Obj: 7.021,	F: 2.630,	Cf: 3.341,	Imb: 0.14,	Val: 2.883,	ValImb: 0.17,	ValObj: 9.33
+2200	Obj: 4.407,	F: 2.125,	Cf: 2.874,	Imb: 0.18,	Val: 2.571,	ValImb: 0.21,	ValObj: 8.10
+2300	Obj: 4.002,	F: 1.973,	Cf: 2.792,	Imb: 0.17,	Val: 2.401,	ValImb: 0.2,	ValObj: 7.13
+2400	Obj: 4.482,	F: 2.136,	Cf: 2.894,	Imb: 0.17,	Val: 2.596,	ValImb: 0.21,	ValObj: 8.10
+2500	Obj: 4.873,	F: 2.060,	Cf: 2.858,	Imb: 0.17,	Val: 2.533,	ValImb: 0.19,	ValObj: 8.56
+2600	Obj: 4.073,	F: 1.845,	Cf: 3.005,	Imb: 0.19,	Val: 2.392,	ValImb: 0.23,	ValObj: 8.17
+2700	Obj: 5.657,	F: 2.624,	Cf: 2.956,	Imb: 0.17,	Val: 2.932,	ValImb: 0.2,	ValObj: 8.53
+2800	Obj: 3.972,	F: 2.065,	Cf: 2.777,	Imb: 0.17,	Val: 2.568,	ValImb: 0.2,	ValObj: 7.70
+2900	Obj: 3.709,	F: 1.808,	Cf: 2.888,	Imb: 0.18,	Val: 2.348,	ValImb: 0.22,	ValObj: 7.37
+2999	Obj: 2.981,	F: 1.685,	Cf: 2.677,	Imb: 0.17,	Val: 2.202,	ValImb: 0.2,	ValObj: 6.33
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 6/10...
+0	Obj: 42.517,	F: 6.646,	Cf: 6.966,	Imb: 0.027,	Val: 6.455,	ValImb: 0.029,	ValObj: 42.81
+100	Obj: 30.461,	F: 6.084,	Cf: 6.234,	Imb: 0.0001,	Val: 5.752,	ValImb: 0.00018,	ValObj: 28.28
+200	Obj: 30.458,	F: 6.084,	Cf: 6.234,	Imb: 9.4e-05,	Val: 5.752,	ValImb: 0.00011,	ValObj: 28.28
+300	Obj: 30.553,	F: 6.085,	Cf: 6.360,	Imb: 0.00012,	Val: 5.739,	ValImb: 0.00015,	ValObj: 28.02
+400	Obj: 31.033,	F: 6.109,	Cf: 6.198,	Imb: 0.00012,	Val: 5.803,	ValImb: 0.00015,	ValObj: 29.29
+500	Obj: 30.456,	F: 6.080,	Cf: 6.333,	Imb: 0.0022,	Val: 5.741,	ValImb: 0.002,	ValObj: 28.02
+600	Obj: 30.452,	F: 6.080,	Cf: 6.320,	Imb: 0.00098,	Val: 5.737,	ValImb: 0.00096,	ValObj: 28.00
+700	Obj: 27.499,	F: 5.657,	Cf: 6.137,	Imb: 0.043,	Val: 5.361,	ValImb: 0.045,	ValObj: 25.72
+800	Obj: 25.239,	F: 5.321,	Cf: 6.157,	Imb: 0.047,	Val: 4.986,	ValImb: 0.045,	ValObj: 23.09
+900	Obj: 25.211,	F: 5.347,	Cf: 5.948,	Imb: 0.059,	Val: 4.943,	ValImb: 0.055,	ValObj: 22.83
+1000	Obj: 24.385,	F: 5.207,	Cf: 6.069,	Imb: 0.047,	Val: 4.946,	ValImb: 0.046,	ValObj: 22.80
+1100	Obj: 23.272,	F: 5.042,	Cf: 5.970,	Imb: 0.057,	Val: 4.804,	ValImb: 0.056,	ValObj: 21.92
+1200	Obj: 22.312,	F: 4.890,	Cf: 5.855,	Imb: 0.06,	Val: 4.576,	ValImb: 0.064,	ValObj: 20.51
+1300	Obj: 21.389,	F: 4.757,	Cf: 5.788,	Imb: 0.081,	Val: 4.519,	ValImb: 0.08,	ValObj: 20.09
+1400	Obj: 20.840,	F: 4.676,	Cf: 5.793,	Imb: 0.076,	Val: 4.405,	ValImb: 0.083,	ValObj: 19.10
+1500	Obj: 20.150,	F: 4.581,	Cf: 5.727,	Imb: 0.076,	Val: 4.463,	ValImb: 0.084,	ValObj: 19.40
+1600	Obj: 20.220,	F: 4.613,	Cf: 5.760,	Imb: 0.088,	Val: 4.527,	ValImb: 0.099,	ValObj: 19.52
+1700	Obj: 20.591,	F: 4.642,	Cf: 5.687,	Imb: 0.073,	Val: 4.536,	ValImb: 0.077,	ValObj: 20.22
+1800	Obj: 19.335,	F: 4.489,	Cf: 5.695,	Imb: 0.1,	Val: 4.595,	ValImb: 0.11,	ValObj: 20.04
+1900	Obj: 19.917,	F: 4.539,	Cf: 5.818,	Imb: 0.079,	Val: 4.408,	ValImb: 0.088,	ValObj: 19.20
+2000	Obj: 18.813,	F: 4.435,	Cf: 5.632,	Imb: 0.097,	Val: 4.464,	ValImb: 0.1,	ValObj: 19.07
+2100	Obj: 18.858,	F: 4.452,	Cf: 5.672,	Imb: 0.097,	Val: 4.472,	ValImb: 0.11,	ValObj: 19.21
+2200	Obj: 18.964,	F: 4.493,	Cf: 5.754,	Imb: 0.094,	Val: 4.926,	ValImb: 0.11,	ValObj: 21.84
+2300	Obj: 18.291,	F: 4.357,	Cf: 5.543,	Imb: 0.12,	Val: 4.678,	ValImb: 0.13,	ValObj: 20.75
+2400	Obj: 17.681,	F: 4.327,	Cf: 5.624,	Imb: 0.11,	Val: 4.757,	ValImb: 0.11,	ValObj: 21.00
+2500	Obj: 17.867,	F: 4.314,	Cf: 5.695,	Imb: 0.11,	Val: 4.435,	ValImb: 0.11,	ValObj: 19.23
+2600	Obj: 17.145,	F: 4.243,	Cf: 5.641,	Imb: 0.12,	Val: 4.417,	ValImb: 0.12,	ValObj: 19.23
+2700	Obj: 16.840,	F: 4.199,	Cf: 5.536,	Imb: 0.13,	Val: 4.638,	ValImb: 0.13,	ValObj: 21.36
+2800	Obj: 16.535,	F: 4.239,	Cf: 5.545,	Imb: 0.13,	Val: 4.402,	ValImb: 0.13,	ValObj: 19.37
+2900	Obj: 15.862,	F: 4.114,	Cf: 5.520,	Imb: 0.12,	Val: 4.422,	ValImb: 0.12,	ValObj: 19.36
+2999	Obj: 17.155,	F: 4.331,	Cf: 5.583,	Imb: 0.11,	Val: 4.953,	ValImb: 0.12,	ValObj: 22.48
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 7/10...
+0	Obj: 503.188,	F: 22.040,	Cf: 23.984,	Imb: 0.03,	Val: 22.009,	ValImb: 0.029,	ValObj: 504.37
+100	Obj: 30.657,	F: 5.689,	Cf: 5.533,	Imb: 0.0012,	Val: 5.615,	ValImb: 0.0015,	ValObj: 29.53
+200	Obj: 26.613,	F: 5.310,	Cf: 5.276,	Imb: 0.022,	Val: 5.247,	ValImb: 0.019,	ValObj: 24.99
+300	Obj: 23.005,	F: 4.944,	Cf: 4.763,	Imb: 0.048,	Val: 4.937,	ValImb: 0.05,	ValObj: 22.20
+400	Obj: 22.913,	F: 4.841,	Cf: 4.945,	Imb: 0.048,	Val: 4.877,	ValImb: 0.052,	ValObj: 22.34
+500	Obj: 22.421,	F: 4.780,	Cf: 4.986,	Imb: 0.051,	Val: 4.808,	ValImb: 0.055,	ValObj: 21.95
+600	Obj: 23.600,	F: 4.895,	Cf: 4.691,	Imb: 0.053,	Val: 4.963,	ValImb: 0.053,	ValObj: 23.88
+700	Obj: 21.960,	F: 4.712,	Cf: 4.963,	Imb: 0.048,	Val: 4.750,	ValImb: 0.05,	ValObj: 21.56
+800	Obj: 20.980,	F: 4.630,	Cf: 4.804,	Imb: 0.052,	Val: 4.688,	ValImb: 0.054,	ValObj: 20.87
+900	Obj: 23.405,	F: 4.977,	Cf: 5.067,	Imb: 0.055,	Val: 5.112,	ValImb: 0.061,	ValObj: 23.81
+1000	Obj: 20.455,	F: 4.590,	Cf: 4.659,	Imb: 0.057,	Val: 4.682,	ValImb: 0.059,	ValObj: 20.70
+1100	Obj: 19.899,	F: 4.528,	Cf: 4.603,	Imb: 0.056,	Val: 4.642,	ValImb: 0.057,	ValObj: 20.33
+1200	Obj: 19.913,	F: 4.567,	Cf: 4.544,	Imb: 0.074,	Val: 4.717,	ValImb: 0.073,	ValObj: 20.84
+1300	Obj: 20.010,	F: 4.558,	Cf: 4.724,	Imb: 0.061,	Val: 4.654,	ValImb: 0.065,	ValObj: 20.43
+1400	Obj: 20.703,	F: 4.671,	Cf: 4.655,	Imb: 0.047,	Val: 4.789,	ValImb: 0.051,	ValObj: 21.25
+1500	Obj: 19.499,	F: 4.523,	Cf: 4.627,	Imb: 0.069,	Val: 4.747,	ValImb: 0.069,	ValObj: 21.10
+1600	Obj: 18.891,	F: 4.459,	Cf: 4.598,	Imb: 0.063,	Val: 4.652,	ValImb: 0.064,	ValObj: 20.31
+1700	Obj: 17.874,	F: 4.361,	Cf: 4.446,	Imb: 0.071,	Val: 4.584,	ValImb: 0.074,	ValObj: 19.93
+1800	Obj: 21.283,	F: 4.678,	Cf: 4.778,	Imb: 0.076,	Val: 4.941,	ValImb: 0.075,	ValObj: 24.10
+1900	Obj: 19.089,	F: 4.389,	Cf: 4.475,	Imb: 0.065,	Val: 4.604,	ValImb: 0.065,	ValObj: 21.02
+2000	Obj: 17.347,	F: 4.344,	Cf: 4.741,	Imb: 0.086,	Val: 4.617,	ValImb: 0.087,	ValObj: 19.59
+2100	Obj: 15.998,	F: 4.062,	Cf: 4.335,	Imb: 0.079,	Val: 4.456,	ValImb: 0.08,	ValObj: 19.23
+2200	Obj: 15.127,	F: 3.973,	Cf: 4.369,	Imb: 0.079,	Val: 4.330,	ValImb: 0.081,	ValObj: 17.90
+2300	Obj: 17.936,	F: 4.302,	Cf: 4.676,	Imb: 0.088,	Val: 4.721,	ValImb: 0.085,	ValObj: 21.82
+2400	Obj: 13.978,	F: 3.853,	Cf: 4.455,	Imb: 0.088,	Val: 4.316,	ValImb: 0.091,	ValObj: 17.40
+2500	Obj: 15.181,	F: 3.907,	Cf: 4.889,	Imb: 0.1,	Val: 4.398,	ValImb: 0.1,	ValObj: 18.76
+2600	Obj: 13.307,	F: 3.757,	Cf: 4.252,	Imb: 0.091,	Val: 4.290,	ValImb: 0.089,	ValObj: 17.45
+2700	Obj: 14.072,	F: 3.812,	Cf: 4.273,	Imb: 0.085,	Val: 4.300,	ValImb: 0.085,	ValObj: 17.76
+2800	Obj: 13.896,	F: 3.846,	Cf: 4.265,	Imb: 0.081,	Val: 4.305,	ValImb: 0.083,	ValObj: 17.53
+2900	Obj: 13.042,	F: 3.705,	Cf: 4.221,	Imb: 0.086,	Val: 4.228,	ValImb: 0.087,	ValObj: 17.23
+2999	Obj: 12.399,	F: 3.621,	Cf: 4.411,	Imb: 0.093,	Val: 4.158,	ValImb: 0.093,	ValObj: 16.37
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 8/10...
+0	Obj: 24.740,	F: 5.623,	Cf: 5.472,	Imb: 0.031,	Val: 5.547,	ValImb: 0.033,	ValObj: 23.34
+100	Obj: 19.696,	F: 4.883,	Cf: 5.076,	Imb: 0.053,	Val: 4.748,	ValImb: 0.055,	ValObj: 18.15
+200	Obj: 8.433,	F: 3.188,	Cf: 4.341,	Imb: 0.085,	Val: 2.918,	ValImb: 0.087,	ValObj: 7.09
+300	Obj: 11.594,	F: 3.835,	Cf: 4.199,	Imb: 0.078,	Val: 3.666,	ValImb: 0.084,	ValObj: 10.49
+400	Obj: 7.666,	F: 2.994,	Cf: 3.961,	Imb: 0.1,	Val: 2.616,	ValImb: 0.11,	ValObj: 5.93
+500	Obj: 6.897,	F: 2.886,	Cf: 3.697,	Imb: 0.12,	Val: 2.587,	ValImb: 0.14,	ValObj: 5.62
+600	Obj: 5.896,	F: 2.714,	Cf: 2.765,	Imb: 0.17,	Val: 2.358,	ValImb: 0.19,	ValObj: 4.74
+700	Obj: 5.349,	F: 2.661,	Cf: 2.566,	Imb: 0.19,	Val: 2.391,	ValImb: 0.21,	ValObj: 4.67
+800	Obj: 5.117,	F: 2.551,	Cf: 2.567,	Imb: 0.18,	Val: 2.350,	ValImb: 0.2,	ValObj: 5.07
+900	Obj: 4.984,	F: 2.604,	Cf: 3.041,	Imb: 0.16,	Val: 2.400,	ValImb: 0.17,	ValObj: 4.67
+1000	Obj: 4.164,	F: 2.382,	Cf: 2.229,	Imb: 0.17,	Val: 2.064,	ValImb: 0.19,	ValObj: 3.57
+1100	Obj: 4.184,	F: 2.365,	Cf: 2.465,	Imb: 0.16,	Val: 2.251,	ValImb: 0.18,	ValObj: 3.98
+1200	Obj: 5.030,	F: 2.673,	Cf: 2.642,	Imb: 0.16,	Val: 2.757,	ValImb: 0.19,	ValObj: 5.60
+1300	Obj: 4.043,	F: 2.319,	Cf: 2.622,	Imb: 0.16,	Val: 2.069,	ValImb: 0.17,	ValObj: 3.67
+1400	Obj: 4.285,	F: 2.407,	Cf: 2.358,	Imb: 0.17,	Val: 2.201,	ValImb: 0.18,	ValObj: 3.94
+1500	Obj: 4.960,	F: 2.491,	Cf: 2.850,	Imb: 0.15,	Val: 2.401,	ValImb: 0.17,	ValObj: 4.72
+1600	Obj: 3.842,	F: 2.279,	Cf: 2.326,	Imb: 0.17,	Val: 1.990,	ValImb: 0.18,	ValObj: 3.37
+1700	Obj: 3.997,	F: 2.278,	Cf: 2.289,	Imb: 0.15,	Val: 2.137,	ValImb: 0.17,	ValObj: 3.71
+1800	Obj: 3.600,	F: 2.208,	Cf: 2.170,	Imb: 0.18,	Val: 2.258,	ValImb: 0.2,	ValObj: 4.03
+1900	Obj: 3.741,	F: 2.197,	Cf: 2.760,	Imb: 0.16,	Val: 2.426,	ValImb: 0.18,	ValObj: 4.65
+2000	Obj: 5.249,	F: 2.524,	Cf: 2.518,	Imb: 0.15,	Val: 2.821,	ValImb: 0.17,	ValObj: 6.32
+2100	Obj: 3.660,	F: 2.249,	Cf: 1.971,	Imb: 0.15,	Val: 1.943,	ValImb: 0.17,	ValObj: 3.14
+2200	Obj: 3.730,	F: 2.217,	Cf: 2.767,	Imb: 0.15,	Val: 2.447,	ValImb: 0.17,	ValObj: 4.68
+2300	Obj: 3.393,	F: 2.157,	Cf: 1.898,	Imb: 0.16,	Val: 1.929,	ValImb: 0.18,	ValObj: 3.07
+2400	Obj: 3.785,	F: 2.286,	Cf: 2.122,	Imb: 0.13,	Val: 1.897,	ValImb: 0.15,	ValObj: 3.14
+2500	Obj: 3.362,	F: 2.110,	Cf: 2.061,	Imb: 0.16,	Val: 2.190,	ValImb: 0.18,	ValObj: 3.75
+2600	Obj: 3.611,	F: 2.148,	Cf: 2.246,	Imb: 0.16,	Val: 2.362,	ValImb: 0.18,	ValObj: 4.45
+2700	Obj: 3.324,	F: 2.056,	Cf: 2.491,	Imb: 0.14,	Val: 2.202,	ValImb: 0.16,	ValObj: 4.15
+2800	Obj: 2.420,	F: 1.752,	Cf: 2.343,	Imb: 0.16,	Val: 2.243,	ValImb: 0.18,	ValObj: 3.95
+2900	Obj: 2.005,	F: 1.531,	Cf: 2.444,	Imb: 0.15,	Val: 3.119,	ValImb: 0.16,	ValObj: 6.75
+2999	Obj: 1.619,	F: 1.346,	Cf: 1.990,	Imb: 0.15,	Val: 3.155,	ValImb: 0.17,	ValObj: 6.77
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 9/10...
+0	Obj: 1409.903,	F: 37.459,	Cf: 39.953,	Imb: 0.028,	Val: 37.303,	ValImb: 0.029,	ValObj: 1430.29
+100	Obj: 22.207,	F: 4.189,	Cf: 8.315,	Imb: 0.0015,	Val: 3.948,	ValImb: 0.0014,	ValObj: 18.21
+200	Obj: 21.932,	F: 4.162,	Cf: 8.344,	Imb: 0.0013,	Val: 3.934,	ValImb: 0.0013,	ValObj: 18.17
+300	Obj: 23.186,	F: 4.243,	Cf: 8.703,	Imb: 0.0034,	Val: 4.133,	ValImb: 0.0036,	ValObj: 21.09
+400	Obj: 21.329,	F: 4.090,	Cf: 8.168,	Imb: 0.0064,	Val: 3.832,	ValImb: 0.0064,	ValObj: 17.21
+500	Obj: 18.560,	F: 3.868,	Cf: 8.052,	Imb: 0.017,	Val: 3.662,	ValImb: 0.016,	ValObj: 15.40
+600	Obj: 17.147,	F: 3.752,	Cf: 8.139,	Imb: 0.02,	Val: 3.748,	ValImb: 0.019,	ValObj: 16.59
+700	Obj: 17.377,	F: 3.748,	Cf: 7.943,	Imb: 0.012,	Val: 3.547,	ValImb: 0.011,	ValObj: 14.33
+800	Obj: 15.712,	F: 3.636,	Cf: 7.938,	Imb: 0.022,	Val: 3.600,	ValImb: 0.02,	ValObj: 14.75
+900	Obj: 14.627,	F: 3.495,	Cf: 7.832,	Imb: 0.021,	Val: 3.439,	ValImb: 0.019,	ValObj: 13.46
+1000	Obj: 13.808,	F: 3.368,	Cf: 7.749,	Imb: 0.014,	Val: 3.274,	ValImb: 0.013,	ValObj: 12.14
+1100	Obj: 10.835,	F: 3.028,	Cf: 7.510,	Imb: 0.021,	Val: 3.078,	ValImb: 0.019,	ValObj: 10.88
+1200	Obj: 15.026,	F: 3.459,	Cf: 7.675,	Imb: 0.014,	Val: 3.380,	ValImb: 0.014,	ValObj: 13.51
+1300	Obj: 9.687,	F: 2.907,	Cf: 7.550,	Imb: 0.025,	Val: 3.148,	ValImb: 0.025,	ValObj: 11.81
+1400	Obj: 12.475,	F: 3.299,	Cf: 7.551,	Imb: 0.02,	Val: 3.277,	ValImb: 0.019,	ValObj: 11.79
+1500	Obj: 11.365,	F: 3.218,	Cf: 7.631,	Imb: 0.019,	Val: 3.372,	ValImb: 0.021,	ValObj: 12.62
+1600	Obj: 8.862,	F: 2.823,	Cf: 7.401,	Imb: 0.025,	Val: 3.006,	ValImb: 0.026,	ValObj: 10.28
+1700	Obj: 7.629,	F: 2.667,	Cf: 7.402,	Imb: 0.03,	Val: 3.041,	ValImb: 0.032,	ValObj: 11.03
+1800	Obj: 7.943,	F: 2.693,	Cf: 7.330,	Imb: 0.028,	Val: 2.946,	ValImb: 0.029,	ValObj: 10.08
+1900	Obj: 9.803,	F: 2.884,	Cf: 7.338,	Imb: 0.025,	Val: 3.016,	ValImb: 0.027,	ValObj: 10.74
+2000	Obj: 6.975,	F: 2.558,	Cf: 7.325,	Imb: 0.03,	Val: 2.967,	ValImb: 0.031,	ValObj: 10.58
+2100	Obj: 7.806,	F: 2.678,	Cf: 7.315,	Imb: 0.035,	Val: 3.079,	ValImb: 0.036,	ValObj: 11.44
+2200	Obj: 8.161,	F: 2.724,	Cf: 7.266,	Imb: 0.028,	Val: 3.015,	ValImb: 0.029,	ValObj: 10.67
+2300	Obj: 8.057,	F: 2.705,	Cf: 7.305,	Imb: 0.025,	Val: 2.945,	ValImb: 0.026,	ValObj: 9.97
+2400	Obj: 6.616,	F: 2.496,	Cf: 7.203,	Imb: 0.029,	Val: 2.895,	ValImb: 0.031,	ValObj: 9.90
+2500	Obj: 7.117,	F: 2.618,	Cf: 7.216,	Imb: 0.031,	Val: 2.972,	ValImb: 0.032,	ValObj: 10.22
+2600	Obj: 6.593,	F: 2.484,	Cf: 7.149,	Imb: 0.03,	Val: 2.839,	ValImb: 0.032,	ValObj: 9.44
+2700	Obj: 6.366,	F: 2.446,	Cf: 7.113,	Imb: 0.031,	Val: 2.824,	ValImb: 0.034,	ValObj: 9.39
+2800	Obj: 7.444,	F: 2.574,	Cf: 7.160,	Imb: 0.03,	Val: 2.858,	ValImb: 0.03,	ValObj: 9.58
+2900	Obj: 6.528,	F: 2.446,	Cf: 7.094,	Imb: 0.029,	Val: 2.771,	ValImb: 0.032,	ValObj: 9.03
+2999	Obj: 6.807,	F: 2.517,	Cf: 7.099,	Imb: 0.03,	Val: 2.835,	ValImb: 0.034,	ValObj: 9.31
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
+Training on experiment 10/10...
+0	Obj: 27.683,	F: 5.684,	Cf: 4.905,	Imb: 0.033,	Val: 5.673,	ValImb: 0.033,	ValObj: 27.85
+100	Obj: 14.047,	F: 4.675,	Cf: 3.836,	Imb: 0.0032,	Val: 4.700,	ValImb: 0.0033,	ValObj: 14.11
+200	Obj: 14.052,	F: 4.677,	Cf: 3.803,	Imb: 0.0046,	Val: 4.690,	ValImb: 0.0049,	ValObj: 14.03
+300	Obj: 13.748,	F: 4.608,	Cf: 3.338,	Imb: 0.12,	Val: 4.569,	ValImb: 0.13,	ValObj: 13.45
+400	Obj: 4.595,	F: 2.628,	Cf: 2.068,	Imb: 0.11,	Val: 2.727,	ValImb: 0.11,	ValObj: 4.89
+500	Obj: 4.728,	F: 2.676,	Cf: 1.917,	Imb: 0.094,	Val: 2.777,	ValImb: 0.087,	ValObj: 5.01
+600	Obj: 4.314,	F: 2.547,	Cf: 1.852,	Imb: 0.093,	Val: 2.687,	ValImb: 0.086,	ValObj: 4.71
+700	Obj: 3.813,	F: 2.361,	Cf: 1.919,	Imb: 0.071,	Val: 2.539,	ValImb: 0.068,	ValObj: 4.33
+800	Obj: 3.398,	F: 2.229,	Cf: 1.759,	Imb: 0.089,	Val: 2.435,	ValImb: 0.082,	ValObj: 3.94
+900	Obj: 3.632,	F: 2.324,	Cf: 1.927,	Imb: 0.086,	Val: 2.546,	ValImb: 0.076,	ValObj: 4.28
+1000	Obj: 2.579,	F: 1.933,	Cf: 1.625,	Imb: 0.098,	Val: 2.197,	ValImb: 0.083,	ValObj: 3.23
+1100	Obj: 2.163,	F: 1.737,	Cf: 1.519,	Imb: 0.098,	Val: 2.089,	ValImb: 0.082,	ValObj: 2.98
+1200	Obj: 1.912,	F: 1.620,	Cf: 1.420,	Imb: 0.1,	Val: 1.985,	ValImb: 0.088,	ValObj: 2.71
+1300	Obj: 1.825,	F: 1.576,	Cf: 1.373,	Imb: 0.11,	Val: 1.975,	ValImb: 0.09,	ValObj: 2.69
+1400	Obj: 2.851,	F: 2.010,	Cf: 1.616,	Imb: 0.11,	Val: 2.365,	ValImb: 0.1,	ValObj: 3.78
+1500	Obj: 3.252,	F: 2.212,	Cf: 1.604,	Imb: 0.1,	Val: 2.533,	ValImb: 0.089,	ValObj: 4.17
+1600	Obj: 1.958,	F: 1.650,	Cf: 1.498,	Imb: 0.1,	Val: 1.934,	ValImb: 0.09,	ValObj: 2.58
+1700	Obj: 1.809,	F: 1.573,	Cf: 1.423,	Imb: 0.11,	Val: 1.853,	ValImb: 0.098,	ValObj: 2.40
+1800	Obj: 1.493,	F: 1.395,	Cf: 1.299,	Imb: 0.11,	Val: 1.784,	ValImb: 0.098,	ValObj: 2.25
+1900	Obj: 1.517,	F: 1.408,	Cf: 1.305,	Imb: 0.12,	Val: 1.800,	ValImb: 0.1,	ValObj: 2.28
+2000	Obj: 2.172,	F: 1.735,	Cf: 1.496,	Imb: 0.12,	Val: 2.117,	ValImb: 0.11,	ValObj: 3.07
+2100	Obj: 1.544,	F: 1.428,	Cf: 1.312,	Imb: 0.12,	Val: 1.822,	ValImb: 0.11,	ValObj: 2.33
+2200	Obj: 1.422,	F: 1.356,	Cf: 1.319,	Imb: 0.12,	Val: 1.722,	ValImb: 0.1,	ValObj: 2.12
+2300	Obj: 1.367,	F: 1.321,	Cf: 1.304,	Imb: 0.12,	Val: 1.698,	ValImb: 0.11,	ValObj: 2.08
+2400	Obj: 1.573,	F: 1.419,	Cf: 1.349,	Imb: 0.13,	Val: 1.821,	ValImb: 0.11,	ValObj: 2.37
+2500	Obj: 1.313,	F: 1.290,	Cf: 1.284,	Imb: 0.13,	Val: 1.687,	ValImb: 0.11,	ValObj: 2.05
+2600	Obj: 1.381,	F: 1.330,	Cf: 1.289,	Imb: 0.12,	Val: 1.725,	ValImb: 0.11,	ValObj: 2.13
+2700	Obj: 1.256,	F: 1.255,	Cf: 1.271,	Imb: 0.12,	Val: 1.670,	ValImb: 0.11,	ValObj: 2.02
+2800	Obj: 1.506,	F: 1.411,	Cf: 1.368,	Imb: 0.12,	Val: 1.698,	ValImb: 0.11,	ValObj: 2.07
+2900	Obj: 1.364,	F: 1.325,	Cf: 1.274,	Imb: 0.13,	Val: 1.743,	ValImb: 0.11,	ValObj: 2.16
+2999	Obj: 1.304,	F: 1.277,	Cf: 1.272,	Imb: 0.13,	Val: 1.691,	ValImb: 0.12,	ValObj: 2.07
+Saving result to results/acic/setting_7/results_20220102_170854-822037/...
+
